@@ -23,6 +23,21 @@ Run this command in your terminal to open a local server at localhost:3000
 pnpm dev
 ```
 
+## Deploy to Cloudflare Workers (static hosting)
+
+This repo can be deployed as a Cloudflare Worker that serves the Vite build output from `dist/`.
+
+```shell
+pnpm install
+pnpm deploy
+```
+
+If you haven’t authenticated Wrangler yet:
+
+```shell
+pnpm exec wrangler login
+```
+
 ### Can you leave a star please?
 
 I genuinely appreciate your support! If you're willing to show your appreciation, you can <strong>give me a star on GitHub 🎉 </strong>or consider buying a coffee to support my development at https://www.buymeacoffee.com/andersonmancini. The funds received will be utilized to create more valuable content about Three.js and invest in acquiring new courses. Thank you for your consideration!

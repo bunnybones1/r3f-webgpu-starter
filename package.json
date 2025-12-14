@@ -17,13 +17,16 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.7.0",
-    "vite": "^6.4.1"
+    "vite": "^6.4.1",
+    "wrangler": "^3.0.0"
   },
   "scripts": {
     "dev": "vite",
     "start": "pnpm dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:worker": "pnpm build && wrangler dev",
+    "deploy": "pnpm build && wrangler deploy"
   },
   "browserslist": [
     ">1%",

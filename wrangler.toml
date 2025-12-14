@@ -1,0 +1,7 @@
+name = "r3f-webgpu-starter"
+main = "worker/index.js"
+compatibility_date = "2025-12-01"
+
+# Serve the Vite build output (`dist/`) as static assets from this Worker.
+# The Worker code provides SPA-style fallback to `/index.html` for unknown paths.
+assets = { directory = "./dist", binding = "ASSETS" }
