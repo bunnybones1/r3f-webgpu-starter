@@ -27,8 +27,8 @@ importers:
         specifier: ^0.182.0
         version: 0.182.0
       three-react-character-omnom:
-        specifier: ^0.0.8
-        version: 0.0.8(@react-three/drei@10.7.7(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@types/react@19.2.7)(@types/three@0.182.0)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0)
+        specifier: ^0.0.11
+        version: 0.0.11(@react-three/drei@10.7.7(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@types/react@19.2.7)(@types/three@0.182.0)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.2
@@ -2104,8 +2104,8 @@ packages:
     peerDependencies:
       three: '>= 0.159.0'
 
-  three-react-character-omnom@0.0.8:
-    resolution: {integrity: sha512-2mWs8Zh5ba5U8v6EoWtvLdf90/5Lv5YGA4dZJkgQYbyX1MB7QseN8TIzYUUx7AXWwminswoBWzro9F9jRzeH7w==}
+  three-react-character-omnom@0.0.11:
+    resolution: {integrity: sha512-d9uKVwMatU0qPrf3+xeI4a8QWEyqTlult/gWRb1ehfmpHRA9q30Nkl6uOJODqyM1xQwyPbWXYvW23mu8wMSaqg==}
     peerDependencies:
       '@react-three/drei': ^10.7.7
       '@react-three/fiber': ^9.5.0
@@ -4510,7 +4510,7 @@ snapshots:
     dependencies:
       three: 0.182.0
 
-  three-react-character-omnom@0.0.8(@react-three/drei@10.7.7(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@types/react@19.2.7)(@types/three@0.182.0)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0):
+  three-react-character-omnom@0.0.11(@react-three/drei@10.7.7(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@types/react@19.2.7)(@types/three@0.182.0)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0):
     dependencies:
       '@react-three/drei': 10.7.7(@react-three/fiber@9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0))(@types/react@19.2.7)(@types/three@0.182.0)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0)
       '@react-three/fiber': 9.4.2(@types/react@19.2.7)(immer@11.0.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0)
