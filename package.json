@@ -13,7 +13,8 @@
     "@types/three": "^0.182.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "three": "^0.182.0"
+    "three": "^0.182.0",
+    "three-react-character-omnom": "^0.0.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",

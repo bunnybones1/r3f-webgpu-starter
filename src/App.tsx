@@ -8,6 +8,7 @@ import Monster from "./components/Monster";
 import { Float } from "@react-three/drei";
 import GlowyBall from "./components/GlowyBall";
 import type { Quality } from "./types";
+import { AnimatedMonsters } from "./AnimatedMonsters";
 
 export default function App() {
   const [quality, setQuality] = useState<Quality>("default");
@@ -83,6 +84,7 @@ export default function App() {
         <Monster position={[2, 0, 2]} rotation={[0, 1, 0]} color={0xff00ff} />
         <Monster position={[2, 0, -2]} rotation={[0, -1, 0]} color={0x009fff} />
         <Monster position={[-2, 0, -6]} rotation={[0, -1, 0]} color={0x00af00} />
+        <AnimatedMonsters />
       </MyCanvas>
     </>
   );
