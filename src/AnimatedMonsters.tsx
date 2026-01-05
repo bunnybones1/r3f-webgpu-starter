@@ -61,6 +61,7 @@ export function AnimatedMonsters() {
           color={monster.color}
           position={monsterStates[index].position}
           rotation={monsterStates[index].rotation}
+          lookTarget={new Vector3(20, 2, 0)}
         />
       ))}
     </>
