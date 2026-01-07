@@ -46,7 +46,7 @@ export function AnimatedMonsters() {
       const tScaled = t * monster.speed;
       monsterState.position.set(
         Math.sin(tScaled * 0.2) * 5 + monster.origin.x,
-        Math.sin(tScaled * 6.6 + monsterState.phase) * 0.25 + 3.5 + monster.origin.y,
+        Math.sin(tScaled * 6.6 + monsterState.phase) * 0.25 + 0.75 + monster.origin.y,
         Math.sin(tScaled * 0.4) * -2.5 + monster.origin.z,
       );
       monsterState.rotation.set(0, Math.sin(tScaled * 0.4) * -1.5, 0);
@@ -62,6 +62,8 @@ export function AnimatedMonsters() {
           position={monsterStates[index].position}
           rotation={monsterStates[index].rotation}
           lookTarget={new Vector3(20, 2, 0)}
+          floorHeight={-0.85}
+          scale={0.7}
         />
       ))}
     </>
